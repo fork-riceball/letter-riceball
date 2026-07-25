@@ -24,10 +24,16 @@ const thoughtsWithContent = await Promise.all(
   })
 );
 
-export function getStaticPaths() {
-  return Object.keys(languages).map((language) => ({
-    params: { language },
-  }));
+export async function getStaticPaths() {
+  const allThoughts = await getCollection('thought');
+  const localesWithThoughts = new Set(
+    allThoughts.map(t => t.id.split('/')[0])
+  );
+  return Object.keys(languages)
+    .filter(lang => localesWithThoughts.has(lang))
+    .map((language) => ({
+      params: { language },
+    }));
 }
 
 const categoryIcons = {

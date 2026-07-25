@@ -3,8 +3,13 @@ import LanguagePicker from '@/components/LanguagePicker.astro'
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { defaultLocale, useTranslations,prefixDefaultLocale, getLocale } from '@/i18n/i18n.ts';
 import { resolveAsset } from '@/utils/paths.ts';
+import { getCollection } from 'astro:content';
 
 const t = useTranslations(getLocale(Astro.currentLocale));
+
+const thoughts = await getCollection('thought');
+const currentLocale = getLocale(Astro.currentLocale);
+const hasThoughts = thoughts.some(thought => thought.id.startsWith(currentLocale));
 
 interface NavLink {
   url: string;
@@ -18,7 +23,7 @@ const links: NavLink[] = [
   { url: '/resume', name: t('Navbar-2') },
   { url: '/work', name: t('Navbar-3') },
   { url: '/faq', name: t('Navbar-4') },
-  { url: '/thought', name: t('Navbar-5') },
+  { url: '/thought', name: t('Navbar-5'), isHidden: !hasThoughts },
 ];
 
 function isActiveNavItem(navItem: string) {
