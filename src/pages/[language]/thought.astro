@@ -27,7 +27,7 @@ const thoughtsWithContent = await Promise.all(
 export async function getStaticPaths() {
   const allThoughts = await getCollection('thought');
   const localesWithThoughts = new Set(
-    allThoughts.map(t => t.id.split('/')[0])
+    allThoughts.map(thought => thought.id.split('/')[0])
   );
   return Object.keys(languages)
     .filter(lang => localesWithThoughts.has(lang))
