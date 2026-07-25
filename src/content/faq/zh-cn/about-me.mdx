@@ -1,65 +1,17 @@
 ---
-title: 关于 Letter 主题
+title: 关于我
 ---
 
-![Letter 布景预览图](/letter/assets/global/preview.jpg)
+我是宗瑋，网路别名 Riceball，目前日常与工作都专注于开发网页应用，习惯纪录开发上的大小事到部落格：<a href="https://www.webdong.dev/zh-cn/" class='underline'>WebDong</a>。
 
-通过结构完善的 Markdown 和配置文件，你可以轻松搭建自己的在线[简历](https://riceball-tw.github.io/letter/zh-cn/resume/)、[作品集](https://riceball-tw.github.io/letter/zh-cn/work/)，甚至是[个人问答](https://riceball-tw.github.io/letter/zh-cn/faq/)。本网站基于 [Letter Portfolio](https://github.com/riceball-tw/letter) 主题构建，并部署在 GitHub Pages 上。
+<br/>
 
-## 特性
+没有什么动态爱好，从小就喜欢电脑游戏且不爱读书，所以尝试过动画、绘图、平面设计、开发……等方向，巧合下透过网页比赛升学：<a href="https://www.webdong.dev/zh-cn/shortpost/story-between-me-and-web-design/#story-between-me-and-web-design" class='underline'>我透过网页升学的故事</a>，从在学接案到毕业后一直持续网页开发的工作。
 
-* Astro v6 + Tailwind v4
-* 极快（Lighthouse 评分 100%）
-* 响应式设计，SEO 友好
-* 内置多语言支持
-* CI 流程（ESLint + Prettier + TypeScript 类型检查 + Lighthouse）
-* CD 流程（Cloudflare Pages 或 GitHub Pages）
+<br/>
 
-## 如何开始
+性格应该是 INTP 最为接近：「试图为所有让他们感兴趣的事物建立合乎逻辑的解释。偏向理论与抽象，比起社交互动更关注想法与概念。性格安静、内敛、弹性高且适应力强。在自己感兴趣的领域中，具备异常深入专注与解决问题的能力。带有怀疑精神，有时较为批判，但始终保持分析性思考。」
 
-### 开发
+<br/>
 
-```bash
-# 1. 克隆仓库
-git clone https://github.com/riceball-tw/letter.git .
-
-# 2. 安装依赖
-pnpm install
-
-# 3. 启动开发服务器
-pnpm run dev
-```
-
-## 自定义
-
-1. `astro.config.mjs`：Astro 相关配置
-   * `site`：最终部署的 URL
-2. `/src/content`：全站配置、作品集、简历与问答内容
-3. `/src/i18n`：用于 Astro 模板中的多语言翻译
-4. `/public`：网站资源（logo.svg、favicon 等）
-5. `/src/styles/global.css`：全局样式
-6. `/.github/workflows/deploy-pipeline.yml`：GitHub CI/CD 流程（可配置以下环境变量）
-   * `LHCI_GITHUB_APP_TOKEN`、`LHCI_TOKEN`：用于 Lighthouse 检测
-   * `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN`：用于 Cloudflare Wrangler 部署
-   * `BASE_URL`：为网站中的所有链接和资源添加前缀（通常用于在没有自定义域名的 GitHub Pages 部署场景）
-
-### 构建
-
-```bash
-# 1. 部署 ./dist 目录中的静态网页
-pnpm install
-pnpm build
-pnpm preview
-
-# 2. 使用 Docker 部署
-docker build -t <your-astro-image-name> .
-docker run -p <local-port>:<container-port> <your-astro-image-name>
-```
-
-## 参与开发
-
-如果你有任何问题或需要帮助，欢迎在 [GitHub Issue](https://github.com/riceball-tw/letter/issues) 发起讨论。
-
-## 授权
-
-MIT
+如果有任何问题都很欢迎透过 Email 与我联系。
