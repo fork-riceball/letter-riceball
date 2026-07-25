@@ -3,8 +3,8 @@ name: Deploy Pipeline
 on:
   push:
   workflow_dispatch:
-  repository_dispatch:
-    types: [content-updated]
+  # repository_dispatch:
+  #   types: [content-updated]
 
 env:
   BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
