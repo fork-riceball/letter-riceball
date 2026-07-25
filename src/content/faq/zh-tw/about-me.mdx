@@ -1,65 +1,17 @@
 ---
-title: 關於 Letter 佈景 
+title: 關於我 
 ---
 
-![Letter 佈景預覽圖](/letter/assets/global/preview.jpg)
+我是宗瑋，網路別名 Riceball，目前日常與工作都專注於開發網頁應用，習慣紀錄開發上的大小事到部落格：<a href="https://www.webdong.dev/zh-tw/" class='underline'>WebDong</a>。
 
-透過定義完善的 Markdown 和配置文件，輕鬆搭建自己的線上[履歷](https://riceball-tw.github.io/letter/zh-tw/resume/)、[作品集](https://riceball-tw.github.io/letter/zh-tw/work/)，甚至是[個人問答](https://riceball-tw.github.io/letter/zh-tw/faq/)。本網站基於[Letter Portfolio](https://github.com/riceball-tw/letter) 主題建構，並部屬在 GitHub Pages 上。
-  
-## 特色
+<br/>
 
-- Astro v6 + Tailwind v4
-- 超快 (100% lighthouse 分數)
-- 響應式頁面與 SEO 友善
-- 內建多語系
-- CI 流程 (ESLint + Prettier + TS Typecheck + Lighthouse)
-- CD 流程 ([Cloudflare Pages](https://pages.cloudflare.com/) 或 [GitHub Pages](https://pages.github.com/))
+沒有什麼動態愛好，從小就喜歡電腦遊戲且不愛讀書，所以嘗試過動畫、繪圖、平面設計、開發……等方向，巧合下透過網頁比賽升學：<a href="https://www.webdong.dev/zh-tw/shortpost/story-between-me-and-web-design/#story-between-me-and-web-design" class='underline'>我透過網頁升學的故事</a>，從在學接案到畢業後一直持續網頁開發的工作。
 
-## 如何開始
+<br/>
 
-### 開發
+性格應該是 INTP 最為接近：「試圖為所有讓他們感興趣的事物建立合乎邏輯的解釋。偏向理論與抽象，比起社交互動更關注想法與概念。性格安靜、內斂、彈性高且適應力強。在自己感興趣的領域中，具備異常深入專注與解決問題的能力。帶有懷疑精神，有時較為批判，但始終保持分析性思考。」
 
-```bash
-# 1. 複製倉庫
-git clone https://github.com/riceball-tw/letter.git .
+<br/>
 
-# 2. 安裝依賴
-pnpm install
-
-# 3. 運行開發伺服器
-pnpm run dev
-```
-
-## 自定義
-
-1. `astro.config.mjs`: Astro 相關設定
-    - `site`: 最終部屬的 URL
-2. `/src/content`: 全站設定、作品集、履歷與問答內容
-3. `/src/i18n`: 用於 Astro 模板當中的翻譯
-4. `/public`: 網站資產 (logo.svg, favicon...)
-5. `/src/styles/global.css`: 樣式
-6. `/.github/workflows/deploy-pipeline.yml`: GitHub CI/CD 流程 (可以設置以下環境變數)
-    - `LHCI_GITHUB_APP_TOKEN`, `LHCI_TOKEN`: lighthouse 檢測使用
-    - `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`: Cloudflare Wrangler 部屬使用
-    - `BASE_URL`: 前綴網站中每個連結與資產 (通常用於部屬沒有自訂網域的 GitHub Pages 時使用)
-
-### 建構
-
-```bash
-# 1. 部屬 `./dist` 資料夾中的網頁
-pnpm install
-pnpm build
-pnpm preview
-
-# 2. 部屬透過 Docker
-docker build -t <your-astro-image-name> .
-docker run -p <local-port>:<container-port> <your-astro-image-name>
-```
-
-## 協助開發
-
-有任何問題或需要幫助的地方都歡迎到 [GitHub Issue](https://github.com/riceball-tw/letter/issues) 發起討論 。
-
-## 授權
-
-MIT
+如果有任何問題都很歡迎透過 Email 與我聯繫。

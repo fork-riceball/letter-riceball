@@ -1,39 +1,39 @@
 favicons:
-  "16": /assets/global/favicon/favicon-16x16.png
-  "32": /assets/global/favicon/favicon-32x32.png
-  "512": /assets/global/favicon/favicon-512x512.png
-  android-chrome-192: /assets/global/favicon/android-chrome-192x192.png
-  android-chrome-512: /assets/global/favicon/android-chrome-512x512.png
-  apple-touch-icon: /assets/global/favicon/apple-touch-icon.png
+  "16": https://bucket-wei.webdong.dev/favicon/favicon-16x16.png
+  "32": https://bucket-wei.webdong.dev/favicon/favicon-32x32.png
+  "512": https://bucket-wei.webdong.dev/favicon/favicon-512x512.png
+  android-chrome-192: https://bucket-wei.webdong.dev/favicon/android-chrome-192x192.png
+  android-chrome-512: https://bucket-wei.webdong.dev/favicon/android-chrome-512x512.png
+  apple-touch-icon: https://bucket-wei.webdong.dev/favicon/apple-touch-icon.png
 globalOgImage:
-  url: /assets/global/og.jpg
+  url: https://bucket-wei.webdong.dev/global/og-image.jpg
   height: 630
   width: 1200
   type: image/jpeg
 website:
-  name: Letter
-  username: Joe
-  email: example@example.com
-  emojiStatus: ✉️
-  globalBackgroundTextureImage: /assets/global/nature-paper.webp
-  globalHighlightTextureImage: /assets/global/highlight-texture.webp
+  name: WeiWeb
+  username: Riceball
+  email: bottle200918@gmail.com
+  emojiStatus: 🍙
+  globalBackgroundTextureImage: https://bucket-wei.webdong.dev/global/natural-paper.webp
+  globalHighlightTextureImage: https://bucket-wei.webdong.dev/global/highlight-texture.webp
   socials:
     - name: Blog
-      url: https://example.com/
+      url: https://www.webdong.dev/
     - name: GitHub
-      url: https://example.com/
+      url: https://github.com/riceball-tw
     - name: Threads
-      url: https://example.com/
+      url: https://www.threads.net/@webdong.dev
     - name: Behance
-      url: https://example.com/
+      url: https://www.behance.net/riceballwei
     - name: CakeResume
-      url: https://example.com/
+      url: https://www.cakeresume.com/me/Riceball-wei
 heroVideo:
-  poster: /assets/global/hero.webp
+  poster: https://bucket-wei.webdong.dev/hero-blur.webp
   sources:
-    - src: /assets/global/hero.webm
+    - src: https://bucket-wei.webdong.dev/hero.webm
       type: video/webm
-    - src: /assets/global/hero.mp4
+    - src: https://bucket-wei.webdong.dev/hero.mp4
       type: video/mp4
 techGroups:
   - id: "Work-TechGroup-all"
