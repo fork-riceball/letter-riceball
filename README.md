@@ -12,13 +12,16 @@
 
 <br />
 
+> [!TIP]
+> You might be intrested in building blog too, Check out [Dong blog theme](https://github.com/riceball-tw/dong)!
+
 ![Letter Theme Preview](./public/assets/global/preview.jpg)
 
 Start your online [resume](https://riceball-tw.github.io/letter/en/resume/) or [projects](https://riceball-tw.github.io/letter/en/work/) or even [FAQ](https://riceball-tw.github.io/letter/en/faq/) through fully typed markdown and settings. Check out the [Demo](https://riceball-tw.github.io/letter/en/), hosted on GitHub Pages.
   
 ## Key Features
 
-- Astro v6 + Tailwind v4
+- Astro v7 + Tailwind v4
 - Optimize for speed (100% lighthouse score)
 - Responsive & SEO-friendly
 - Built-in i18n
