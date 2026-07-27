@@ -49,6 +49,7 @@ const allowedTechs = [
   'Go',
   'Go Test',
   'WASM',
+  'Bubble Tea'
 ] as const;
 
 export const AllowedTechsEnum = z.enum(allowedTechs);

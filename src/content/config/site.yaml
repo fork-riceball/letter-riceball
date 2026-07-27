@@ -77,6 +77,7 @@ techGroups:
     themeColor: "#608f03"
   - id: "Work-TechGroup-CLI"
     relatedTechs:
+      - "Bubble Tea"
       - "CLI"
     icon: "material-symbols:terminal-rounded"
     themeColor: "#e74c3c"
