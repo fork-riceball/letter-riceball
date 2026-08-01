@@ -88,3 +88,8 @@ techGroups:
       - "Drizzle ORM"
     icon: "material-symbols:database-outline"
     themeColor: "#03118f"
+  - id: "Work-TechGroup-Package"
+    relatedTechs:
+      - "Package"
+    icon: "material-symbols:package-outline-rounded"
+    themeColor: "#2856ed"
