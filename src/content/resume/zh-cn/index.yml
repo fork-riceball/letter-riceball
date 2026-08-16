@@ -22,11 +22,11 @@ personalInfo:
     icon: simple-icons:threads
     url: https://www.threads.net/@webdong.dev
 workExperience:
-- title: 网页前端工程师
+- title: 全端工程师
   company:
     name: 中華龍網股份有限公司
     link: https://www.dragonsoft.com/
-  time: 2025/07 ~ 至今．在职
+  time: 2026/07 ~ 至今．在职
   achievements:
   - 暂不透露
   techs:
@@ -45,16 +45,25 @@ workExperience:
   - Vue Test Utils
 - title: 前端工程师
   company:
+    name: 中華龍網股份有限公司
+    link: https://www.dragonsoft.com/
+  time: 2025/07 ~ 2026/07 ． 1 年
+  achievements:
+  - 归纳既有开发问题并规划文件透过 AI 实现半自动化翻新，一年内完成前后端约 60% 主力产品翻新迭代与技术债问题
+  - 为 QA 建立完整端到端自动化测试设施与流程，包含测试环境、资料播种 API 与执行流程，提升测试效率
+  - 与 TPM 共同讨论规划 FIDO 登录、客制化报表产制、复杂资料表单进阶搜寻⋯⋯等功能需求，从使用情境、UX 到技术方案参与规划并完成落地
+  techs:
+    - Express.js
+    - Element Plus
+- title: 前端工程师
+  company:
     name: 有點意思科技股份有限公司（HiSKIO）
     link: https://hiskio.com/zh-CN
   time: 2023/10 ~ 2024/10 ． 1 年
   achievements:
-  - 引入 Nx 建立 Monorepo 项目架构，消除重复工作与套件升级管理问题
-  - 引入升级 Nuxt 3 并添加 TypeScript 类型检查，提高整体程序安全性
-  - 引入 Shadcn Vue 系列组件，缩短新架构构建时程
-  - 引入 GitHub Actions CI 流程，自动化套件升级、类型检测与测试流程
-  - 引入 BDD E2E 文档测试合一，编写测试覆盖后台项目所有主要功能
-  - 观测并报告旧有 XSS 漏洞，提供成因与修复建议
+  - 整合单一 Monorepo 统一套件与开发流程，降低跨项目重复工作与维护成本
+  - 推动套件与 UI 迭代与 TypeScript 导入，强化类型安全与程序可维护性
+  - 建立 AI 审核、类型验证与自动化测试流程，降低维护成本提高品质
   techs:
   - Nx Monorepo
   - TypeScript
@@ -82,16 +91,16 @@ workExperience:
   - jQuery
   - Bootstrap
   - Sass
-- title: 网页设计开发自由工作者
-  company:
-    name: 赫綵設計學院
-    link: https://www.appedu.com.tw/
-  time: 2020 / 03 ~2020 / 05 ． 3 个月
-  achievements:
-  - 接案独立制作 2 个单页活动网页前端设计兼开发
-  techs:
-  - Sass
-  - Bootstrap
+# - title: 网页设计开发自由工作者
+#   company:
+#     name: 赫綵設計學院
+#     link: https://www.appedu.com.tw/
+#   time: 2020 / 03 ~2020 / 05 ． 3 个月
+#   achievements:
+#   - 接案独立制作 2 个单页活动网页前端设计兼开发
+#   techs:
+#   - Sass
+#   - Bootstrap
 achievements:
 - title: 2023 iThome 鐵人賽 Modern Web 組 - 鐵人煉成
   subtitle: 网页开发没有这么简单过！实际案例带你上手 Astro.js 共 30 篇系列文章
